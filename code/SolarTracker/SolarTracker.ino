@@ -21,6 +21,7 @@
 
 */
 
+<<<<<<< HEAD
 // include library definition files
 #include "SolarTracker.h"
 
@@ -46,6 +47,20 @@ void setup() {
 
 
 /*
+=======
+/* I\O PIN MAPPING ARDUINO NANO MODULE - Main Controller Module  */
+#define NANO_A0_PIN 22
+#define NANO_A1_PIN 23
+#define NANO_A2_PIN 24
+#define NANO_A3_PIN 25
+
+int ledPin = 9;    // LED connected to digital pin 9
+
+void setup() {
+  // nothing happens in setup
+}
+
+>>>>>>> master
 void loop() {
   // fade in from min to max in increments of 5 points:
   for (int fadeValue = 0 ; fadeValue <= 255; fadeValue += 5) {
@@ -62,5 +77,8 @@ void loop() {
     // wait for 30 milliseconds to see the dimming effect
     delay(30);
   }
+<<<<<<< HEAD
   */
+=======
+>>>>>>> master
 }
