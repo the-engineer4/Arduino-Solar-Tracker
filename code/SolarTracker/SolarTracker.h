@@ -32,17 +32,17 @@
 
 
 /* I\O PIN MAPPING MODULE - Description  */
-#define NANO_A0_PIN 0
-#define NANO_A1_PIN 1
-#define NANO_A2_PIN 2
-#define NANO_A3_PIN 3
+//#define NANO_A0_PIN 0
+//#define NANO_A1_PIN 1
+//#define NANO_A2_PIN 2
+//#define NANO_A3_PIN 3
 
 
 /*  Class instances forward declaration */
-//class SensorArray
+//class SensorArray;
 //class LinearActuator;
 
-
+/*
 class SensorArray
 {
   public:
@@ -53,8 +53,9 @@ class SensorArray
   private:
     int getSensorData(int sensor_id);
 };
+*/
 
-
+/*
 class LinearActuator
 {
   public:
@@ -67,6 +68,6 @@ class LinearActuator
     bool direction;
     
 };
-
+*/
 
 #endif
